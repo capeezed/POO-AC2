@@ -33,10 +33,11 @@ public class Gerente extends FuncionarioBase implements Beneficios {
         return salario * percentual;
     }
 
+    @Override
     public double calcularSalario(double bonusAdicional){
-
-    return salario + bonusAdicional;
+        return salario + bonusAdicional;
     }
+
     @Override
     public double calcularAuxilio(double auxilio) {
         return 0;
