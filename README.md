@@ -1,2 +1,2 @@
 # POO-AC2
-AC2 da matéria POO(Programação Orientada a Objetos) dada pelo professor Amauri.
+Feita na IDE Intelije e transcrita para o VScode
