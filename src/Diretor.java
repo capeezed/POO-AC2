@@ -51,6 +51,7 @@ public class Diretor extends FuncionarioBase {
         return salario + auxilio;
     }
 
+    @Override
     public String toString(){
         return "Nome: " + getNome() + ", Salário: " + calcularSalario();  
     }

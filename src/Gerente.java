@@ -7,6 +7,7 @@ public class Gerente extends FuncionarioBase implements Beneficios {
         super(nome,salario);
         this.bonusPercentual = bonusPercentual;
     }
+
     @Override
     public double calcularSalario(){
         return salario + (salario * (bonusPercentual / 100));
@@ -42,7 +43,8 @@ public class Gerente extends FuncionarioBase implements Beneficios {
     public double calcularAuxilio(double auxilio) {
         return 0;
     }
-
+    
+    @Override
     public String toString(){
         return "Nome: " + getNome() + ", Salário: " + calcularSalario();
     }

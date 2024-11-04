@@ -13,7 +13,7 @@ public class Main {
     ti.adicionarFuncionario(diretor);
 
     //imprimindo folha salarial
-    System.out.println(ti.calcularFolhaSalarial());
+    System.out.println("Folha salarial: " + ti.calcularFolhaSalarial());
 
     //imprimindo salario e nome dos funcionarios
     ti.imprimirSalarioFuncionarios();
