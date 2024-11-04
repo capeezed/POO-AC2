@@ -1,3 +1,4 @@
 # POO-AC2
-Feita na IDE Intellij e transcrita para o VScode
-Por Gabriel Capelini e Melissa Yuari
+Feita na IDE Intellij e transcrita para o VScode  
+Feito por Melissa Yukari Kato e Gabriel Capelini de Oliveira
+
