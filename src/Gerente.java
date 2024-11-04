@@ -28,13 +28,21 @@ public class Gerente extends FuncionarioBase implements Beneficios {
         this.salario = salario;
     }
 
+    @Override
     public double calcularBonus(double percentual){
         return salario * percentual;
     }
 
+    public double calcularSalario(double bonusAdicional){
+
+    return salario + bonusAdicional;
+    }
     @Override
     public double calcularAuxilio(double auxilio) {
         return 0;
     }
 
+    public String toString(){
+        return "Nome: " + getNome() + ", Salário: " + calcularSalario();
+    }
 }

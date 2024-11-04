@@ -39,12 +39,20 @@ public class Diretor extends FuncionarioBase {
         return salario + (salario * bonusPercentual / 100) + auxilioMoradia;
     }
 
+    public double calcularSalario(double bonusAdicional){
+        return salario + bonusAdicional;
+    }
+
     public double calcularBonus(double percentual){
         return salario * percentual;
     }
 
     public double calcularAuxilio(double auxilio){
         return salario + auxilio;
+    }
+
+    public String toString(){
+        return "Nome: " + getNome() + ", Salário: " + calcularSalario();  
     }
 
 }

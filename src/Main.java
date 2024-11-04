@@ -4,13 +4,13 @@ public class Main {
 
     Departamento ti = new Departamento("TI");
 
-    Funcionario f = new Funcionario("João", 3000);
-    Gerente g = new Gerente("Maria", 5000, 20);
-    Diretor d = new Diretor("Carlos", 10000,30, 2000 );
+    Funcionario funcionario = new Funcionario("João", 3000);
+    Gerente gerente = new Gerente("Maria", 5000, 20);
+    Diretor diretor = new Diretor("Carlos", 10000,30, 2000 );
 
-    ti.adicionarFuncionario(f);
-    ti.adicionarFuncionario(g);
-    ti.adicionarFuncionario(d);
+    ti.adicionarFuncionario(funcionario);
+    ti.adicionarFuncionario(gerente);
+    ti.adicionarFuncionario(diretor);
 
     //imprimindo folha salarial
     System.out.println(ti.calcularFolhaSalarial());
@@ -18,6 +18,7 @@ public class Main {
     //imprimindo salario e nome dos funcionarios
     ti.imprimirSalarioFuncionarios();
 
+  
 
     }
 

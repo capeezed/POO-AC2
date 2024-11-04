@@ -14,7 +14,7 @@ public abstract class FuncionarioBase {
     }
 
     public double calcularSalario(double bonusAdicional){
-        return salarioBase + (salarioBase * bonusAdicional / 100);
+        return salarioBase + bonusAdicional;
     }
 
     public String getNome() {
